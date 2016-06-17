@@ -1,0 +1,20 @@
+How does your gem take advantage of Ruby’s metaprogramming capabilities?
+It makes new colors with an each loop and send method, creating colors from a list of specified colors. By adding to the list, there are more colors.
+
+
+How long did you spend working on this project? 4 - 6 hours. I'm still slow
+
+
+What was the most rewarding challenge you conquered?
+Learning about metaprogramming, and some great documentation tips. I had no idea how to format README files before, and now appreciate the idea of making it the place to go for me and all others. 
+
+
+Where do you still have room to grow?
+Struggled abit with my methods.
+1. I got errors "Undefined Method", It helped to go through the slack forum as other had the same issue. I fixed it by deleting my gem and reinstalling it, following the instructions in the lesson. 
+2. For the sample_colors method, I got this error: String.sample_colors - should run "This is (sample color)" in the color chosen. TypeError: [:red, 31] is not a symbol nor a string, fixed by added el to loop. 
+
+I am just beginning to grasp the metaprogramming. It has amazing creative power, so I have a lot of incentive to learning more. Honestly, I had not understood or learned of it before this lesson. 
+The links in this lesson were great. 
+If it weren't for the link to the color table with the list of color elements I would have been lost. 
+I did take a look at the Colorize gem, just for good times. It was good for understanding the file structure but not so much for methods. 
